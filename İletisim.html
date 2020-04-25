@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Göktaş Yazılım</title>
+	<link rel="stylesheet" type="text/css" href="ayar.css">
+	<link rel="shortcut icon" type="image/png" href="Resimler/icon.ico"/>
+	<script src="güvenliksorusu.js" type="text/javascript"></script>
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+<div class="menu">
+	
+	<ul>
+		<li><img class="logo" src="Resimler/Logo.png" style=""></li>
+		<li><a href="index.html">Anasayfa</a></li>
+		<li><a href="Galeri.html">Galeri</a></li>
+		<li><a href="Hakkimda.html">Kurumsal</a></li>
+		<li><a href="İletisim.html">İletişim</a></li>
+	</ul>
+</div>
+<div class="adres">
+	<iframe src="https://www.google.com/maps/d/embed?mid=1T3gh5mmYNZVQotiqtM9qJi7l45a8daxv" width="100%" height="480"></iframe>
+
+</div>
+<div class="bantİletisim">
+	
+	<table >
+		<tr>
+			<th width="50%" style="background-color:#74AD24; ">
+			<img src="Resimler/mail.png" style="height: 50px; width: 50px; float: left; margin-left: 250px; margin-top: 20px;">
+
+				<h3 style="color: white; margin-top: 40px; float: left; margin-left: 80px; font-size: 30px;">E-Posta</h3>
+
+			<div class="iletisimYazi" >
+               <p>Destek : <a href="">destek@goktasyazilim.com.tr</a></p> <br>
+               <p>Satış : <a href="">satis@goktasyazilim.com.tr</a></p> <br>
+               <p>Teklif : <a href="">teklif@goktasyazilim.com.tr</a></p> <br>
+               </div>
+			</th>
+			<th width="50%" style="background-color: #ced6e0;">
+				<h1>Göktaş Yazılım ®</h1> <br>
+                <p> Abide-i Hürriyet Caddesi No:12 Şişli - İstanbul  </p> <br>
+               <p><img src="Resimler/call.png" height="20" width="20">&nbsp; &nbsp;  0850 350 1 903</p> <br>
+               <p><img src="Resimler/mail64.png" height="20" width="20" > &nbsp; &nbsp;info@goktasyazilim.com.tr</p> <br>
+
+<div class="iconlar">
+		<a href="https://tr-tr.facebook.com/"><img src="Resimler/facebook.png" style="height: 50px; width: 50px; margin-left: 0px;"></a>
+
+		<a href="https://twitter.com/?lang=tr"><img src="Resimler/twitter.png" style="height: 50px; width: 50px;"> </a>
+
+		<a href="https://www.instagram.com/?hl=tr"><img src="Resimler/instagram.png" style="height: 50px; width: 50px;"> </a>
+		<a href="https://www.youtube.com/?hl=tr&gl=TR"><img src="Resimler/youtube.png" style="height: 50px; width: 50px;">  </a>
+	</div>
+			</th>
+		</tr>
+	</table>
+</div>
+
+<div class="iletisimFormu">
+	<h2 style="font-size: 30px;" >İletişim Formu</h2>
+	<hr width="190px">
+	<form name="İletisimFormu" onsubmit="return Dogrula()" method="post">
+		<input type="text" name="adiSoyadi" placeholder="Adınız Soyadınız"> <br>
+		<input type="text" name="mail" placeholder="Email"> <br>
+		<input type="tel" name="telefon" placeholder="Telefon" maxlength="11"> <br>
+		<input type="text" name="konu" placeholder="Konu"> <br>
+		<textarea placeholder="Mesaj" name="mesaj">Mesaj </textarea> <br>
+		<input type="text" name="güvenlikkodu" placeholder="Güvenlik Kodu"> <br>
+        <p> Güvenlik Kodu : 
+        	<script language="javascript">
+
+                 var güvenlikkodu= Math.floor(Math.random() * 1000);
+document.write(güvenlikkodu);
+        	 </script>
+
+        </p>
+        <button type="submit" class="btnGönder">Gönder</button>
+
+
+
+
+	</form>
+
+</div>
+
+
+
+<footer class="footer" style="margin-top: 700px;">
+	<img src="Resimler/Logo.png" style="height: 50px; margin-left: 700px; margin-top: 25px;">
+	<h3 style="color:black; margin-top: 15px; ">Yazılım - Web Tasarım - Web Programlama - Mobil Uygulama</h3>
+	<div class="iconlar">
+		<a href="https://tr-tr.facebook.com/"><img src="Resimler/facebook.png" style="height: 50px; width: 50px; margin-left: 700px;"></a>
+
+		<a href="https://twitter.com/?lang=tr"><img src="Resimler/twitter.png" style="height: 50px; width: 50px;"> </a>
+
+		<a href="https://www.instagram.com/?hl=tr"><img src="Resimler/instagram.png" style="height: 50px; width: 50px;"> </a>
+		<a href="https://www.youtube.com/?hl=tr&gl=TR"><img src="Resimler/youtube.png" style="height: 50px; width: 50px;">  </a>
+	</div>
+</footer>
+<footer class="footer2" style="height: 50px; padding-top: 25px; text-align: center; background-color: #bdc3c7; color: black; font-size: 20px;">
+	<h4>Copyright © 2019 Göktaş Yazılım Tüm Hakları Saklıdır.</h4>
+</footer>
+</body>
+</html>
